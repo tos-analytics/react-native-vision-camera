@@ -45,7 +45,8 @@
     "clean-android": "scripts/clean-android.sh",
     "clean-js": "scripts/clean-js.sh",
     "prepack": "cp ../README.md ./README.md",
-    "postpack": "rm ./README.md"
+    "postpack": "rm ./README.md",
+    "prepare": "npm run build"
   },
   "keywords": [
     "react",
